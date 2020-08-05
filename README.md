@@ -6,8 +6,8 @@ We use statistical models and computational tools to infer others' beliefs and g
 
 Bayesian Inference: Implementing the posterior of a distribution from a prior and likelihood
 
-Value Iteration: a model to infer the values associated with each possible action. This is for planning the best actions to take in each possible scenario
+Value Iteration:  a dynamic programming algorithm used for finding the optimal policy for each state action pair in the space. This is for planning the best actions to take in each possible scenario
 
-Goal Inference: a model to infer goals across time from observed actions; combines value iteration and Bayesian inference
+Goal Inference: a model to infer an agent's goals across time from observed actions; combines value iteration and Bayesian inference
 
-Signaling Policies: a model of how to act in ways that communicate a goal to others; combines value iteration and likelihood ratios
+Signaling Policies: a model of how an agent should choose his actions that best communicate his true goal to observers; combines value iteration and likelihood ratios
